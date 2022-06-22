@@ -23,6 +23,17 @@
     .intro__text-heading {
       font-weight: 600;
       font-size: 3.5rem;
+
+      &--highlight {
+        background-color: $highlight-primary;
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 0) 55%,
+          $highlight-primary 50%,
+          $highlight-primary 100%
+        );
+      }
     }
   }
 
@@ -33,5 +44,7 @@
     box-shadow: 2px 2px $text-color-primary;
     background-color: $highlight-primary;
     font-weight: 700;
+    display: flex;
+    gap: 1rem;
   }
 }
