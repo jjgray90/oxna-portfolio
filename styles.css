@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 1rem;
+  font-family: inter;
+  color: #272643;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .nav__nav-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #272643;
+}
+.nav .nav__nav-name--text {
+  font-family: DM Sans;
+}
+.nav .nav__nav-name--icon {
+  color: #bae8e8;
+}
+.nav .nav__nav-links {
+  border: 2px solid green;
+  display: none;
+}
+.nav .nav__nav-links .nav__nav-links-item {
+  color: #8c9cb1;
+}
+.nav .nav__nav-menu-icon {
+  font-size: 1.5rem;
+}
+.nav .nav__nav-menu-icon:hover {
+  cursor: pointer;
+}
+
+.intro {
+  background-color: #f7fafa;
+  height: 52rem;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.intro .intro__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.intro .intro__text .intro__text-subheading {
+  color: #8c9cb1;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.intro .intro__text .intro__text-heading {
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+.intro .intro__work-link {
+  padding: 1.7rem 2rem;
+  border: 2px solid #272643;
+  border-radius: 7px;
+  box-shadow: 2px 2px #272643;
+  background-color: #bae8e8;
+  font-weight: 700;
+}

@@ -1,0 +1,38 @@
+@use "./variables" as *;
+
+.nav {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .nav__nav-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: $text-color-primary;
+
+    &--text {
+      font-family: $font-secondary;
+    }
+
+    &--icon {
+      color: $highlight-primary;
+    }
+  }
+
+  .nav__nav-links {
+    border: 2px solid green;
+    display: none;
+
+    .nav__nav-links-item {
+      color: $text-color-secondary;
+    }
+  }
+
+  .nav__nav-menu-icon {
+    font-size: 1.5rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
