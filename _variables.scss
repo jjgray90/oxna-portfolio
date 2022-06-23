@@ -7,3 +7,14 @@ $text-color-primary: #272643;
 $text-color-secondary: #8c9cb1;
 $font-primary: inter;
 $font-secondary: DM Sans;
+
+@mixin text-highlight {
+  background-color: $highlight-primary;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 55%,
+    $highlight-primary 50%,
+    $highlight-primary 100%
+  );
+}
