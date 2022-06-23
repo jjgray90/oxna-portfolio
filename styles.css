@@ -50,13 +50,15 @@ a:visited {
 }
 
 .intro {
-  background-color: #f7fafa;
-  height: 52rem;
-  padding: 5rem 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 5rem 0;
+  background-color: #f7fafa;
+  padding: 5rem 2rem;
+  display: flex;
+  height: 42rem;
 }
 .intro .intro__text {
   display: flex;
@@ -85,4 +87,36 @@ a:visited {
   font-weight: 700;
   display: flex;
   gap: 1rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0;
+  gap: 5.8rem;
+}
+.skills .skills__skills-heading {
+  background-color: #bae8e8;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 55%, #bae8e8 50%, #bae8e8 100%);
+  font-weight: 600;
+  font-size: 2rem;
+}
+.skills .skills__skills-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 2rem;
+}
+.skills .skills__skills-grid .skills__skills-grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.3rem;
+}
+.skills .skills__skills-grid .skills__skills-grid-item .skills__skills-grid-item-text {
+  color: #8c9cb1;
 }

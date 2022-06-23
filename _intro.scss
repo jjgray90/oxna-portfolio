@@ -1,13 +1,11 @@
 @use "./variables" as *;
 
 .intro {
+  @include flex-box-container;
   background-color: $background-secondary;
-  height: 52rem;
   padding: 5rem 2rem;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  height: 42rem;
 
   .intro__text {
     display: flex;

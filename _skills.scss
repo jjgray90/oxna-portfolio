@@ -1,0 +1,32 @@
+@use "./variables" as *;
+
+.skills {
+  @include flex-box-container;
+  gap: 5.8rem;
+
+  .skills__skills-heading {
+    @include text-highlight;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  .skills__skills-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2rem;
+
+    .skills__skills-grid-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.3rem;
+
+      .skills__skills-grid-item-text {
+        color: $text-color-secondary;
+      }
+    }
+  }
+}

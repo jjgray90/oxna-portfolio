@@ -18,3 +18,11 @@ $font-secondary: DM Sans;
     $highlight-primary 100%
   );
 }
+
+@mixin flex-box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0;
+}
