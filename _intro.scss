@@ -55,6 +55,7 @@
     .intro__intro-container {
       justify-content: center;
       align-items: flex-start;
+      max-width: 65%;
     }
   }
 }
@@ -63,13 +64,13 @@
   .intro {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     .intro__intro-image {
       object-fit: scale-down;
       display: unset;
-      height: 400px;
-      // width: 200px;
+      width: 30%;
+      max-width: 380px;
     }
   }
 }

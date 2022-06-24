@@ -138,19 +138,21 @@ a:visited {
   .intro .intro__intro-container {
     justify-content: center;
     align-items: flex-start;
+    max-width: 65%;
   }
 }
 @media screen and (min-width: 1024px) {
   .intro {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .intro .intro__intro-image {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     display: unset;
-    height: 400px;
+    width: 30%;
+    max-width: 380px;
   }
 }
 .skills {
