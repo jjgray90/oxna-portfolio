@@ -6,8 +6,7 @@
 
   .skills__skills-heading {
     @include text-highlight;
-    font-weight: 600;
-    font-size: 2rem;
+    @include section-headings;
   }
 
   .skills__skills-grid {
