@@ -29,13 +29,15 @@
   }
 
   .intro__work-link {
-    padding: 1.3rem ;
+    width: 100%;
+    padding: 1.3rem;
     border: 2px solid $text-color-primary;
     border-radius: 7px;
     box-shadow: 2px 2px $text-color-primary;
     background-color: $highlight-primary;
     font-weight: 700;
     display: flex;
+    justify-content: center;
     gap: 0.7rem;
   }
 }
