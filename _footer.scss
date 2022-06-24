@@ -1,0 +1,33 @@
+@use "./variables" as *;
+
+.footer {
+  @include flex-box-container;
+  background-color: $text-color-primary;
+  //   height: 13.5rem;
+  gap: 4rem;
+
+  .footer__socials-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .footer_socials_container-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $highlight-primary;
+      border-radius: 50%;
+      padding: 1rem;
+
+      img {
+        height: 2rem;
+        width: 2rem;
+      }
+    }
+  }
+
+  .footer__email {
+    color: white;
+    font-size: 1.125rem;
+  }
+}

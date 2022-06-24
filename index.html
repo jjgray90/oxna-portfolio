@@ -13,14 +13,14 @@
 <body>
     <nav class="nav">
         <a href="" class="nav__nav-name nav__nav-name--text">
-            <i class="fa-solid fa-code nav__nav-name nav__nav-name--icon"></i>
+            <i id="home" class="fa-solid fa-code nav__nav-name nav__nav-name--icon"></i>
             JJ Gray
         </a>
         <div class="nav__nav-links">
-            <a href="" class="nav__nav-links-item">Home</a>
-            <a href="" class="nav__nav-links-item">About</a>
-            <a href="" class="nav__nav-links-item">Projects</a>
-            <a href="" class="nav__nav-links-item nav__nav-links-item--button">Get in Touch</a>
+            <a href="#home" class="nav__nav-links-item">Home</a>
+            <a href="#about" class="nav__nav-links-item">About</a>
+            <a href="#projects" class="nav__nav-links-item">Projects</a>
+            <a href="mailto:jjgray90@gmail.com" class="nav__nav-links-item nav__nav-links-item--button">Get in Touch</a>
         </div>
         <i class="fa-solid fa-bars nav__nav-menu-icon"></i>
     </nav>
@@ -32,7 +32,7 @@
                         class="intro__text-heading intro__text-heading--highlight">Software
                         Developer</span> based in the UK.</h2>
             </div>
-            <a href="" class="intro__work-link"><span>Take a look at my work</span><i
+            <a href="#projects" class="intro__work-link"><span>Take a look at my work</span><i
                     class="fa-solid fa-arrow-turn-down"></i></a>
         </section>
 
@@ -78,7 +78,7 @@
             </div>
         </section>
 
-        <section class="projects">
+        <section id="projects" class="projects">
             <h2 class="projects__project-heading">My Projects</h2>
             <div class="projects__project-grid">
                 <div class="projects__project-grid-card">
@@ -154,7 +154,7 @@
 
         </section>
 
-        <section class="about-me">
+        <section id="about" class="about-me">
             <h2 class="about-me__heading">About Me</h2>
             <img class="about-me__img" src="https://www.fillmurray.com/450/600" alt="bill murray">
             <p class="about-me__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam maxime
@@ -174,6 +174,15 @@
                 id! A nam minima qui neque.</p>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer__socials-container">
+            <a href="https://github.com/jjgray90" class="footer_socials_container-icons"><img src="./icons/github.svg"
+                    alt="github icon"></i></a>
+            <a href="https://www.linkedin.com/in/jjgray90/" class="footer_socials_container-icons"><img
+                    src="./icons/linkedIn.svg" alt="linkedIn icon"></i></a>
+        </div>
+        <a href="mailto:jjgray90@gmail.com" class="footer__email">jjgray90@gmail.com</a>
+    </footer>
 </body>
 
 </html>

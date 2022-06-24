@@ -7,9 +7,16 @@
 }
 
 body {
-  padding: 0 2rem;
   font-family: $font-primary;
   color: $text-color-primary;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  padding: 0 2rem;
 }
 
 a,
