@@ -12,8 +12,10 @@
   .projects__project-grid {
     width: 100%;
     display: grid;
-    gap: 5rem;
-    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto;
+    gap: 2rem;
+    justify-items: center;
 
     .projects__project-grid-card {
       max-width: 440px;
