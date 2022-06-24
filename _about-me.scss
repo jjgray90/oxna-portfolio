@@ -1,20 +1,38 @@
 @use "./variables" as *;
 
-.about-me {
-  @include flex-box-container;
-  gap: 5.8rem;
+.about {
+  background-color: $highlight-secondary;
 
-  .about-me__heading {
-    @include text-highlight;
-    font-size: 3rem;
-    font-weight: 600;
+  .about__about-container {
+    @include flex-box-container;
+    gap: 5.8rem;
+    padding: 5rem 2rem;
+
+    .about__about-heading {
+      font-size: 3rem;
+      font-weight: 600;
+    }
+
+    .about__about-img {
+      max-width: 70%;
+    }
+
+    .about__about-text {
+      @include text-styles;
+    }
   }
+}
 
-  .about-me__img {
-    max-width: 70%;
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 5rem 4rem;
   }
+}
 
-  .about-me__text {
-    @include text-styles;
+@media screen and (min-width: 1024px) {
+  .about {
+    .about__about-img {
+      display: none;
+    }
   }
 }

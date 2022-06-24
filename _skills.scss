@@ -2,6 +2,7 @@
 
 .skills {
   @include flex-box-container;
+  margin: 0 $body-margin;
   gap: 5.8rem;
 
   .skills__skills-heading {
@@ -26,6 +27,21 @@
       .skills__skills-grid-item-text {
         color: $text-color-secondary;
       }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skills {
+    margin: 0 $body-margin * 2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .skills {
+    .skills__skills-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
     }
   }
 }

@@ -2,6 +2,7 @@
 
 .projects {
   @include flex-box-container;
+  margin: 0 $body-margin;
   gap: 5.8rem;
 
   .projects__project-heading {
@@ -75,6 +76,20 @@
           }
         }
       }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
+    margin: 0 $body-margin * 2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projects {
+    .projects__project-grid {
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     }
   }
 }

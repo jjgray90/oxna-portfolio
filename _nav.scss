@@ -24,11 +24,20 @@
   }
 
   .nav__nav-links {
-    border: 2px solid green;
+    width: 60%;
+    max-width: 500px;
     display: none;
+    justify-content: space-between;
+    align-items: center;
 
     .nav__nav-links-item {
       color: $text-color-secondary;
+
+      &--button {
+        @include button-style;
+        color: $text-color-primary;
+        padding: 1rem;
+      }
     }
   }
 
@@ -38,5 +47,19 @@
     &:hover {
       cursor: pointer;
     }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    padding: 2rem 4rem;
+
+    .nav__nav-links {
+      display: flex;
+    }
+  }
+
+  .nav__nav-menu-icon {
+    display: none;
   }
 }

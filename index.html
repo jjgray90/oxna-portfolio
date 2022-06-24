@@ -22,18 +22,21 @@
             <a href="#projects" class="nav__nav-links-item">Projects</a>
             <a href="mailto:jjgray90@gmail.com" class="nav__nav-links-item nav__nav-links-item--button">Get in Touch</a>
         </div>
-        <img src="./icons/burger.svg" alt="burger menu icon">
+        <img class="nav__nav-menu-icon" src="./icons/burger.svg" alt="burger menu icon">
     </nav>
     <main>
         <section class="intro">
-            <div class="intro__text">
-                <h1 class="intro__text-subheading">Hey! I'm JJ Gray</h1>
-                <h2 class="intro__text-heading">A Junior <span
-                        class="intro__text-heading intro__text-heading--highlight">Software
-                        Developer</span> based in the UK.</h2>
+            <div class="intro__intro-container">
+                <div class="intro__intro-text">
+                    <h1 class="intro__intro-text-subheading">Hey! I'm JJ Gray</h1>
+                    <h2 class="intro__intro-text-heading">A Junior <span
+                            class="intro__intro-text-heading intro__intro-text-heading--highlight">Software
+                            Developer</span> based in the UK.</h2>
+                </div>
+                <a href="#projects" class="intro__intro-work-link"><span>Take a look at my work</span><img
+                        src="./icons/arrow.svg" alt="arrow"></a>
             </div>
-            <a href="#projects" class="intro__work-link"><span>Take a look at my work</span><img src="./icons/arrow.svg"
-                    alt=""></a>
+            <img class="intro__intro-image" src="./images/jj.jpeg" alt="JJ Headshot">
         </section>
 
         <section class="skills">
@@ -81,6 +84,76 @@
         <section id="projects" class="projects">
             <h2 class="projects__project-heading">My Projects</h2>
             <div class="projects__project-grid">
+
+                <div class="projects__project-grid-card">
+                    <div class="projects__project-grid-card-img-background">
+                        <img class="projects__project-grid-card-img" src="https://www.fillmurray.com/400/200"
+                            alt="bill murray">
+                    </div>
+                    <article class="projects__project-grid-card-content">
+                        <div class="projects__project-grid-card-content-headings">
+                            <h3 class="projects__project-grid-card-content-skill">REACT</h3>
+                            <h2 class="projects__project-grid-card-content-heading">Client Project</h2>
+                        </div>
+                        <p class="projects__project-grid-card-content-text">
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Commodi doloribus est aperiam fugiat aliquam duc.
+                        </p>
+                        <div class="projects__project-grid-card-content-links">
+                            <a class="projects__project-grid-card-content-links-item" href="">Code<i
+                                    class="projects__project-grid-card-content-links-item-icon fa-solid fa-code"></i></a>
+                            <a class="projects__project-grid-card-content-links-item" href="">Preview<i
+                                    class="projects__project-grid-card-content-links-item-icon fa-solid fa-eye"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects__project-grid-card">
+                    <div class="projects__project-grid-card-img-background">
+                        <img class="projects__project-grid-card-img" src="https://www.fillmurray.com/700/500"
+                            alt="bill murray">
+                    </div>
+                    <article class="projects__project-grid-card-content">
+                        <div class="projects__project-grid-card-content-headings">
+                            <h3 class="projects__project-grid-card-content-skill">JAVA, SPRING BOOT</h3>
+                            <h2 class="projects__project-grid-card-content-heading">REST API</h2>
+                        </div>
+                        <p class="projects__project-grid-card-content-text">
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Commodi doloribus est aperiam fugiat aliquam duc.
+                        </p>
+                        <div class="projects__project-grid-card-content-links">
+                            <a class="projects__project-grid-card-content-links-item" href="">Code<i
+                                    class="projects__project-grid-card-content-links-item-icon fa-solid fa-code"></i></a>
+                            <a class="projects__project-grid-card-content-links-item" href="">Preview<i
+                                    class="projects__project-grid-card-content-links-item-icon fa-solid fa-eye"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects__project-grid-card">
+                    <div class="projects__project-grid-card-img-background">
+                        <img class="projects__project-grid-card-img" src="https://www.fillmurray.com/800/600"
+                            alt="bill murray">
+                    </div>
+                    <article class="projects__project-grid-card-content">
+                        <div class="projects__project-grid-card-content-headings">
+                            <h3 class="projects__project-grid-card-content-skill">REACT</h3>
+                            <h2 class="projects__project-grid-card-content-heading">Punk API</h2>
+                        </div>
+                        <p class="projects__project-grid-card-content-text">
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Commodi doloribus est aperiam fugiat aliquam duc.
+                        </p>
+                        <div class="projects__project-grid-card-content-links">
+                            <a class="projects__project-grid-card-content-links-item" href="">Code<i
+                                    class="projects__project-grid-card-content-links-item-icon fa-solid fa-code"></i></a>
+                            <a class="projects__project-grid-card-content-links-item" href="">Preview<i
+                                    class="projects__project-grid-card-content-links-item-icon fa-solid fa-eye"></i></a>
+                        </div>
+                    </article>
+                </div>
+
                 <div class="projects__project-grid-card">
                     <div class="projects__project-grid-card-img-background">
                         <img class="projects__project-grid-card-img" src="https://www.fillmurray.com/400/200"
@@ -154,24 +227,32 @@
 
         </section>
 
-        <section id="about" class="about-me">
-            <h2 class="about-me__heading">About Me</h2>
-            <img class="about-me__img" src="https://www.fillmurray.com/450/600" alt="bill murray">
-            <p class="about-me__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam maxime
-                corporis, inventore deleniti earum porro commodi sit laboriosam iusto corrupti praesentium facilis, nisi
-                id! A nam minima qui neque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam
-                maxime
-                corporis, inventore deleniti earum porro commodi sit laboriosam iusto corrupti praesentium facilis, nisi
-                id! A nam minima qui neque. <br /><br />Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Quidem, magnam maxime
-                corporis, inventore deleniti earum porro commodi sit laboriosam iusto corrupti praesentium facilis, nisi
-                id! A nam minima qui neque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam
-                maxime
-                corporis, inventore deleniti earum porro commodi sit laboriosam iusto corrupti praesentium facilis, nisi
-                id! A nam minima qui neque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam
-                maxime
-                corporis, inventore deleniti earum porro commodi sit laboriosam iusto corrupti praesentium facilis, nisi
-                id! A nam minima qui neque.</p>
+        <section id="about" class="about">
+            <article class="about__about-container">
+                <h2 class="about__about-heading">About Me</h2>
+                <img class="about__about-img" src="./images/jj.jpeg" alt="JJ headshot">
+                <p class="about__about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam
+                    maxime
+                    corporis, inventore deleniti earum porro commodi sit laboriosam iusto corrupti praesentium facilis,
+                    nisi
+                    id! A nam minima qui neque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam
+                    maxime
+                    corporis, inventore deleniti earum porro commodi sit laboriosam iusto corrupti praesentium facilis,
+                    nisi
+                    id! A nam minima qui neque. <br /><br />Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quidem, magnam maxime
+                    corporis, inventore deleniti earum porro commodi sit laboriosam iusto corrupti praesentium facilis,
+                    nisi
+                    id! A nam minima qui neque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam
+                    maxime
+                    corporis, inventore deleniti earum porro commodi sit laboriosam iusto corrupti praesentium facilis,
+                    nisi
+                    id! A nam minima qui neque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam
+                    maxime
+                    corporis, inventore deleniti earum porro commodi sit laboriosam iusto corrupti praesentium facilis,
+                    nisi
+                    id! A nam minima qui neque.</p>
+            </article>
         </section>
     </main>
     <footer class="footer">
