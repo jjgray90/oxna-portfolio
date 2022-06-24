@@ -1,0 +1,20 @@
+@use "./variables" as *;
+
+.about-me {
+  @include flex-box-container;
+  gap: 5.8rem;
+
+  .about-me__heading {
+    @include text-highlight;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  .about-me__img {
+    max-width: 70%;
+  }
+
+  .about-me__text {
+    @include text-styles;
+  }
+}

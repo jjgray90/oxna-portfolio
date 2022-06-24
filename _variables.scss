@@ -32,3 +32,9 @@ $font-secondary: DM Sans;
   align-items: center;
   padding: 5rem 0;
 }
+
+@mixin text-styles {
+  color: $text-color-secondary;
+  font-weight: 400;
+  line-height: 2rem;
+}
