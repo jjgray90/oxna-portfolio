@@ -3,6 +3,7 @@
 $background-primary: white;
 $background-secondary: #f7fafa;
 $highlight-primary: #bae8e8;
+$highlight-secondary: #e3f6f5;
 $text-color-primary: #272643;
 $text-color-secondary: #8c9cb1;
 $font-primary: inter;
@@ -17,6 +18,11 @@ $font-secondary: DM Sans;
     $highlight-primary 50%,
     $highlight-primary 100%
   );
+}
+
+@mixin section-headings {
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 @mixin flex-box-container {
