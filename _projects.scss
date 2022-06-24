@@ -13,16 +13,17 @@
     width: 100%;
     display: grid;
     gap: 5rem;
-    grid-template-columns: 1fr;
+    justify-content: center;
 
     .projects__project-grid-card {
+      max-width: 440px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
       gap: 2rem;
 
-      .projects__project-grid-card-img-container {
+      .projects__project-grid-card-img-background {
         background-color: $highlight-secondary;
         width: 100%;
         height: 18rem;
@@ -32,9 +33,10 @@
         align-items: center;
 
         .projects__project-grid-card-img {
-          width: 90%;
-          height: 75%;
           border-radius: 0.5rem 0.5rem 0 0;
+          object-fit: cover;
+          width: 80%;
+          height: 70%;
         }
       }
 
@@ -63,7 +65,7 @@
         }
 
         .projects__project-grid-card-content-links {
-          width: 60%;
+          width: 55%;
           display: flex;
           justify-content: space-between;
           font-weight: 600;
