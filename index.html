@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/0f97e108f7.js" crossorigin="anonymous"></script>
+    <script src="./main.js" async defer></script>
     <title>JJ Gray</title>
 </head>
 
@@ -16,13 +17,15 @@
             <img class="nav__nav-name nav__nav-name--icon" src="./icons/tag.svg" alt="">
             <p class="nav__nav-name nav__nav-name--text">JJ Gray</p>
         </a>
-        <div class="nav__nav-links">
+        <div class="nav__nav-links" id="nav-links">
             <a href="#home" class="nav__nav-links-item">Home</a>
             <a href="#about" class="nav__nav-links-item">About</a>
             <a href="#projects" class="nav__nav-links-item">Projects</a>
             <a href="mailto:jjgray90@gmail.com" class="nav__nav-links-item nav__nav-links-item--button">Get in Touch</a>
         </div>
-        <img class="nav__nav-menu-icon" src="./icons/burger.svg" alt="burger menu icon">
+
+        <a class="nav__nav-menu-icon" href="javascript:void(0);" onclick="toggleNav()"><img src="./icons/burger.svg"
+                alt="burger menu icon"></a>
     </nav>
     <main>
         <section class="intro">

@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 
   .nav__nav-name {
     font-weight: bold;
@@ -26,9 +27,19 @@
   .nav__nav-links {
     width: 60%;
     max-width: 500px;
-    display: none;
     justify-content: space-between;
     align-items: center;
+    display: none;
+
+    &--mobile {
+      padding: 1rem 0;
+      order: 3;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 1rem;
+      width: 100%;
+    }
 
     .nav__nav-links-item {
       color: $text-color-secondary;
