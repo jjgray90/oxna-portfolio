@@ -64,6 +64,9 @@ a:visited {
 .nav .nav__nav-links .nav__nav-links-item {
   color: #8c9cb1;
 }
+.nav .nav__nav-links .nav__nav-links-item:hover {
+  color: #272643;
+}
 .nav .nav__nav-links .nav__nav-links-item--button {
   padding: 1.3rem;
   border: 2px solid #272643;
@@ -73,6 +76,12 @@ a:visited {
   font-weight: 700;
   color: #272643;
   padding: 1rem;
+}
+.nav .nav__nav-links .nav__nav-links-item--button:hover {
+  position: relative;
+  right: -2px;
+  bottom: -2px;
+  box-shadow: unset;
 }
 .nav .nav__nav-menu-icon {
   padding-right: 1rem;
@@ -152,6 +161,12 @@ a:visited {
   display: flex;
   justify-content: center;
   gap: 0.7rem;
+}
+.intro .intro__intro-work-link:hover {
+  position: relative;
+  right: -2px;
+  bottom: -2px;
+  box-shadow: unset;
 }
 .intro .intro__intro-image {
   display: none;

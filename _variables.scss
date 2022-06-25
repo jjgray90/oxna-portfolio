@@ -47,4 +47,11 @@ $font-secondary: DM Sans;
   box-shadow: 2px 2px $text-color-primary;
   background-color: $highlight-primary;
   font-weight: 700;
+
+  &:hover {
+    position: relative;
+    right: -2px;
+    bottom: -2px;
+    box-shadow: unset;
+  }
 }

@@ -48,6 +48,10 @@
     .nav__nav-links-item {
       color: $text-color-secondary;
 
+      &:hover {
+        color: $text-color-primary;
+      }
+
       &--button {
         @include button-style;
         color: $text-color-primary;
