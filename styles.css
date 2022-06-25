@@ -69,9 +69,9 @@ a:visited {
 }
 .nav .nav__nav-links .nav__nav-links-item--button {
   padding: 1.3rem;
-  border: 2px solid #272643;
+  border: 1px solid #272643;
   border-radius: 7px;
-  box-shadow: 2px 2px #272643;
+  box-shadow: 3px 3px #272643;
   background-color: #bae8e8;
   font-weight: 700;
   color: #272643;
@@ -79,8 +79,8 @@ a:visited {
 }
 .nav .nav__nav-links .nav__nav-links-item--button:hover {
   position: relative;
-  right: -2px;
-  bottom: -2px;
+  right: -3px;
+  bottom: -3px;
   box-shadow: unset;
 }
 .nav .nav__nav-menu-icon {
@@ -151,9 +151,9 @@ a:visited {
 }
 .intro .intro__intro-work-link {
   padding: 1.3rem;
-  border: 2px solid #272643;
+  border: 1px solid #272643;
   border-radius: 7px;
-  box-shadow: 2px 2px #272643;
+  box-shadow: 3px 3px #272643;
   background-color: #bae8e8;
   font-weight: 700;
   width: 100%;
@@ -164,8 +164,8 @@ a:visited {
 }
 .intro .intro__intro-work-link:hover {
   position: relative;
-  right: -2px;
-  bottom: -2px;
+  right: -3px;
+  bottom: -3px;
   box-shadow: unset;
 }
 .intro .intro__intro-image {

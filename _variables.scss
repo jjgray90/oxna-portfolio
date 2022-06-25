@@ -42,16 +42,16 @@ $font-secondary: DM Sans;
 
 @mixin button-style {
   padding: 1.3rem;
-  border: 2px solid $text-color-primary;
+  border: 1px solid $text-color-primary;
   border-radius: 7px;
-  box-shadow: 2px 2px $text-color-primary;
+  box-shadow: 3px 3px $text-color-primary;
   background-color: $highlight-primary;
   font-weight: 700;
 
   &:hover {
     position: relative;
-    right: -2px;
-    bottom: -2px;
+    right: -3px;
+    bottom: -3px;
     box-shadow: unset;
   }
 }
