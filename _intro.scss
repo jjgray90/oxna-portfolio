@@ -6,6 +6,20 @@
   padding: 5rem 2rem;
   height: 42rem;
 
+  &--mobile-open {
+    transition: transform 1s ease-in-out;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+    transform: translate3d(0, 200px, 0);
+    -webkit-transform: translate3d(0, 200px, 0);
+  }
+
+  &--mobile-close {
+    transition: transform 1s ease-in-out;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
   .intro__intro-container {
     @include flex-box-container;
     gap: 3rem;
