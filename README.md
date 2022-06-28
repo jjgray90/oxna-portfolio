@@ -1,8 +1,10 @@
 # oxna-portfolio
 
-Live Site - https://jjgray90.github.io/oxna-portfolio
+
 
 <img width="1395" alt="Screenshot 2022-06-28 at 16 50 47" src="https://user-images.githubusercontent.com/59710385/176224279-2a21cead-c16d-420e-949a-dfb66f6d9797.png">
+
+Live Site - https://jjgray90.github.io/oxna-portfolio
 
 APPROACH & CONCEPTS: 
 
