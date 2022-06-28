@@ -3,7 +3,8 @@ import myProjects from "./projects.json" assert { type: "json" };
 console.log(myProjects);
 
 const getProjects = () => {
-  let generateHtml = myProjects.map((project) => {
+  const generateHtml = myProjects.map((project) => {
+    // alert("working");
     return `<div class="projects__project-grid-card">
               <div class="projects__project-grid-card-img-background">
                 <img class="projects__project-grid-card-img" 

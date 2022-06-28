@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter:wght@400;600;700&display=swap");
 
 $body-margin: 2rem;
+$font-primary: inter;
+$font-secondary: DM Sans;
 $background-primary: white;
 $background-secondary: #f7fafa;
 $highlight-primary: #bae8e8;
 $highlight-secondary: #e3f6f5;
 $text-color-primary: #272643;
 $text-color-secondary: #8c9cb1;
-$font-primary: inter;
-$font-secondary: DM Sans;
 
 @mixin text-highlight {
   background-color: $highlight-primary;
