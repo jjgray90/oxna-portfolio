@@ -1,10 +1,7 @@
-import myProjects from "./projects.json" assert { type: "json" };
-
-console.log(myProjects);
+import dataArr from "./data.js";
 
 const getProjects = () => {
-  const generateHtml = myProjects.map((project) => {
-    // alert("working");
+  const generateHtml = dataArr.map((project) => {
     return `<div class="projects__project-grid-card">
               <div class="projects__project-grid-card-img-background">
                 <img class="projects__project-grid-card-img" 
@@ -40,4 +37,4 @@ const getProjects = () => {
   document.getElementById("project-grid").innerHTML = generateHtml.join("");
 };
 
-getProjects();
+window.onload = () => getProjects();
