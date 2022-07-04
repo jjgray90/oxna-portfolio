@@ -1,12 +1,12 @@
 const dataArr = [
   {
-    title: "Client Project",
-    skillTags: ["react"],
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi doloribus est aperiam fugiat aliquam duc.",
-    gitHub: "https://github.com/jjgray90",
-    liveSite: "https://jjgray90.github.io/oxna-portfolio/",
-    img: "https://www.fillmurray.com/400/200",
-    imgAlt: "Bill Murray",
+    title: "Calculator",
+    skillTags: ["Javascript"],
+    text: "A simple calculator built using javascript functions interacting with the DOM. Next step is to add keyboard functionality.",
+    gitHub: "https://github.com/jjgray90/js-calculator",
+    liveSite: "https://jjgray90.github.io/js-calculator/",
+    img: "assets/images/calculator.png",
+    imgAlt: "Calculator",
   },
   {
     title: "REST API",
