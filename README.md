@@ -1,12 +1,14 @@
-# oxna-portfolio
+# [Personal Portfolio](https://jjgray.me)
 
 
+Mobile             |  Desktop
+:-------------------------:|:-------------------------:
+![Mobile view](https://user-images.githubusercontent.com/59710385/179243964-04f7a307-4226-4bbf-b54a-084c1a366881.png)  |  ![Desktop view](https://user-images.githubusercontent.com/59710385/176224279-2a21cead-c16d-420e-949a-dfb66f6d9797.png)
 
-<img width="1395" alt="Screenshot 2022-06-28 at 16 50 47" src="https://user-images.githubusercontent.com/59710385/176224279-2a21cead-c16d-420e-949a-dfb66f6d9797.png">
 
 Live Site - https://jjgray.me
 
-APPROACH & CONCEPTS: 
+## Approach & Concepts: 
 
   - Mobile-first design
   - SCSS filed into separate sections
@@ -15,4 +17,5 @@ APPROACH & CONCEPTS:
   - DRY approach to both HTML & SCSS to improve scalability and limit reusing code
       - Use of JSON for projects
       - Variables & mixins in SCSS.
+  
   
