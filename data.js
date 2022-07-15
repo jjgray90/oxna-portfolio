@@ -1,5 +1,14 @@
 const dataArr = [
   {
+    title: "Battleships",
+    skillTags: ["Javascript"],
+    text: "A project to increase my knowledge of looping and array manipulation. I really enjoyed the challenge of programming how the computer plays. ",
+    gitHub: "https://github.com/jjgray90/battleships",
+    liveSite: "https://battleships.jjgray.me",
+    img: "assets/images/battleships.png",
+    imgAlt: "Battleships",
+  },
+  {
     title: "Calculator",
     skillTags: ["Javascript"],
     text: "A simple calculator built using javascript functions interacting with the DOM. Next step is to add keyboard functionality.",
@@ -9,6 +18,15 @@ const dataArr = [
     imgAlt: "Calculator",
   },
   {
+    title: "Morse Translator",
+    skillTags: ["Javascript", "TDD"],
+    text: "A tech test style problem, I was tasked with adopting a TDD approach to build a morse code translator. It translates both ways.",
+    gitHub: "https://github.com/jjgray90/oxna-morse-code/",
+    liveSite: "https://morse-translator.jjgray.me/",
+    img: "assets/images/morse-code.png",
+    imgAlt: "Morse Translator",
+  },
+  {
     title: "Bojo Covo",
     skillTags: ["javascript"],
     text: "One lockdown weekend in March 2020, I decided to make a coronavirus version of space invaders. There are a couple of bugs I need to fix.",
@@ -16,42 +34,6 @@ const dataArr = [
     liveSite: "https://bojo-covo.jjgray.me/",
     img: "assets/images/bojo-covo.png",
     imgAlt: "Screenshot of bojo covo game",
-  },
-  {
-    title: "Punk API",
-    skillTags: ["react"],
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi doloribus est aperiam fugiat aliquam duc.",
-    gitHub: "https://github.com/jjgray90",
-    liveSite: "https://jjgray90.github.io/oxna-portfolio/",
-    img: "https://www.fillmurray.com/800/600",
-    imgAlt: "Bill Murray",
-  },
-  {
-    title: "Client Project",
-    skillTags: ["react"],
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi doloribus est aperiam fugiat aliquam duc.",
-    gitHub: "https://github.com/jjgray90",
-    liveSite: "https://jjgray90.github.io/oxna-portfolio/",
-    img: "https://www.fillmurray.com/300/400",
-    imgAlt: "Bill Murray",
-  },
-  {
-    title: "REST API",
-    skillTags: ["java", "spring boot"],
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi doloribus est aperiam fugiat aliquam duc.",
-    gitHub: "https://github.com/jjgray90",
-    liveSite: "https://jjgray90.github.io/oxna-portfolio/",
-    img: "https://www.fillmurray.com/900/500",
-    imgAlt: "Bill Murray",
-  },
-  {
-    title: "Punk API",
-    skillTags: ["react"],
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi doloribus est aperiam fugiat aliquam duc.",
-    gitHub: "https://github.com/jjgray90",
-    liveSite: "https://jjgray90.github.io/oxna-portfolio/",
-    img: "https://www.fillmurray.com/300/300",
-    imgAlt: "Bill Murray",
   },
 ];
 
