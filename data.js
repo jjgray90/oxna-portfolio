@@ -10,7 +10,7 @@ const dataArr = [
   },
   {
     title: "Calculator",
-    skillTags: ["Javascript"],
+    skillTags: ["Javascript", "Cypress"],
     text: "A simple calculator built using javascript functions interacting with the DOM. Next step is to add keyboard functionality.",
     gitHub: "https://github.com/jjgray90/js-calculator",
     liveSite: "https://jjgray90.github.io/js-calculator/",
