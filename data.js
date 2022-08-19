@@ -27,6 +27,14 @@ const dataArr = [
     imgAlt: "Screenshot of punk api website",
   },
   {
+    title: "Snap",
+    skillTags: ["Java"],
+    text: "A simple version of the iconic card game 'Snap'. Project built in java, to deepen my understanding of OOP. Can accept multiple players.",
+    gitHub: "https://github.com/jjgray90/card-game",
+    img: "assets/images/snap.png",
+    imgAlt: "Screenshot of snap game",
+  },
+  {
     title: "Morse Translator",
     skillTags: ["Javascript", "TDD"],
     text: "A tech test style problem, I was tasked with adopting a TDD approach to build a morse code translator. It translates both ways.",
@@ -35,6 +43,7 @@ const dataArr = [
     img: "assets/images/morse-code.png",
     imgAlt: "Morse Translator",
   },
+
   {
     title: "Bojo Covo",
     skillTags: ["Javascript"],

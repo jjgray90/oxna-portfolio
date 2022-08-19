@@ -25,8 +25,12 @@ const getProjects = () => {
                       Code
                       <i class="projects__project-grid-card-content-links-item-icon fa-solid fa-code"></i>
                   </a>
-                  <a class="projects__project-grid-card-content-links-item" 
-                    href=${project.liveSite} target="_blank">
+                  <a class="projects__project-grid-card-content-links-item ${
+                    project.liveSite ? "" : "projects__project-grid-card-content-links-item--grey"
+                  }" 
+                    ${
+                      project.liveSite ? `href=${project.liveSite}` : null
+                    } target="_blank">
                     Preview
                     <i class="projects__project-grid-card-content-links-item-icon fa-solid fa-eye"></i>
                   </a>

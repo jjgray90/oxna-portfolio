@@ -311,7 +311,10 @@ a:visited {
   justify-content: space-between;
   font-weight: 600;
 }
-.projects .projects__project-grid .projects__project-grid-card .projects__project-grid-card-content .projects__project-grid-card-content-links .projects__project-grid-card-content-links-item-icon {
+.projects .projects__project-grid .projects__project-grid-card .projects__project-grid-card-content .projects__project-grid-card-content-links .projects__project-grid-card-content-links-item--grey {
+  opacity: 0.2;
+}
+.projects .projects__project-grid .projects__project-grid-card .projects__project-grid-card-content .projects__project-grid-card-content-links .projects__project-grid-card-content-links-item .projects__project-grid-card-content-links-item-icon {
   padding-left: 0.5rem;
 }
 

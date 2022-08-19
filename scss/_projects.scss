@@ -71,8 +71,13 @@
           justify-content: space-between;
           font-weight: 600;
 
-          .projects__project-grid-card-content-links-item-icon {
-            padding-left: 0.5rem;
+          .projects__project-grid-card-content-links-item {
+            &--grey {
+              opacity: 0.2;
+            }
+            .projects__project-grid-card-content-links-item-icon {
+              padding-left: 0.5rem;
+            }
           }
         }
       }
