@@ -20,13 +20,21 @@ const getProjects = () => {
                     ${project.text}
                 </p>
                 <div class="projects__project-grid-card-content-links">
-                  <a class="projects__project-grid-card-content-links-item" 
-                    href=${project.gitHub} target="_blank">
+                <a class="projects__project-grid-card-content-links-item ${
+                  project.gitHub
+                    ? ""
+                    : "projects__project-grid-card-content-links-item--grey"
+                }" 
+                  ${
+                    project.gitHub ? `href=${project.gitHub}` : null
+                  } target="_blank">
                       Code
                       <i class="projects__project-grid-card-content-links-item-icon fa-solid fa-code"></i>
                   </a>
                   <a class="projects__project-grid-card-content-links-item ${
-                    project.liveSite ? "" : "projects__project-grid-card-content-links-item--grey"
+                    project.liveSite
+                      ? ""
+                      : "projects__project-grid-card-content-links-item--grey"
                   }" 
                     ${
                       project.liveSite ? `href=${project.liveSite}` : null

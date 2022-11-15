@@ -9,6 +9,14 @@ const dataArr = [
     imgAlt: "Wordle",
   },
   {
+    title: "Client Project",
+    skillTags: ["React", "RTL", "Firebase"],
+    text: "Delivered an MVP as part of a sprint team. I spent one week as Product Owner - managing tickets, pull requests and presenting to the client.",
+    liveSite: "https://save-oom-oxna.web.app/",
+    img: "assets/images/save-oom.png",
+    imgAlt: "Save Oom",
+  },
+  {
     title: "Battleships",
     skillTags: ["Javascript"],
     text: "A project to increase my knowledge of looping and array manipulation. I really enjoyed the challenge of programming how the computer plays. ",
