@@ -1,5 +1,14 @@
 const dataArr = [
   {
+    title: "Wordle",
+    skillTags: ["React", "API"],
+    text: "I was all aboard the wordle hype train in early 2022. Enjoyed trying to replicate it. Using a random word API - some of the words are very random!",
+    gitHub: "https://github.com/jjgray90/wordle",
+    liveSite: "https://wordle.jjgray.me",
+    img: "assets/images/wordle.png",
+    imgAlt: "Wordle",
+  },
+  {
     title: "Battleships",
     skillTags: ["Javascript"],
     text: "A project to increase my knowledge of looping and array manipulation. I really enjoyed the challenge of programming how the computer plays. ",
